@@ -31,7 +31,7 @@ export const Character = () => {
   return (
     <div>
       {characters.map((character) => (
-        <h1>{character.name}</h1>
+        <h1 key={character.id}>{character.name}</h1>
       ))}
     </div>
   );

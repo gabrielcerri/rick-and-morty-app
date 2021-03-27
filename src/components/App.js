@@ -1,7 +1,7 @@
 import "./App.css";
-import { Header, Character } from "./components/index";
+import { Header, Character } from "./index";
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
       <Header />
@@ -9,6 +9,4 @@ function App() {
       <Character />
     </div>
   );
-}
-
-export default App;
+};
