@@ -1,0 +1,9 @@
+html {
+  --primaryBackgroundColor: white;
+  --primaryTextColor: black;
+}
+
+html.dark {
+  --primaryBackgroundColor: black;
+  --primaryTextColor: white;
+}

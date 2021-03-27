@@ -1,12 +1,13 @@
-import "./App.css";
-import { Header, Character } from "./index";
+import { Header, Character, DarkToggle } from "./index";
 
-export const App = () => {
+const App = () => {
   return (
     <div className="App">
       <Header />
-      <h1>Hello world</h1>
+      <DarkToggle />
       <Character />
     </div>
   );
 };
+
+export default App;
